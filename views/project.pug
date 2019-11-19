@@ -16,12 +16,12 @@ block content
 
       .cell.portfolio-meta.small-6.medium-2.large-3
       h6 Technologies
-       each technology in project.technologies
+       
           //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
-       ul
-         li technology
-         li technology
-         li technology
+      ul
+       each technology in project.technologies
+        li= technology
+        
 
          //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
       a.button.expanded(href=project.live_link) Live Demo
