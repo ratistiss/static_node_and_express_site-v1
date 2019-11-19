@@ -9,18 +9,24 @@ app.use('/static/', express.static('public'));
 
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { projects });
 })
 
 app.get('/about', (req, res) => {
     res.render('about');
 })
 
-// app.get("/projects/:id",  (req, res) => {
-//     res.render("project.id", {
+app.get("/projects/:id",  (req, res) => {
+    const projectID = req.params.id;
+    const project = projects.find(({id}) => id === +projectID);
+
+    if(project){
+    res.render("project", { projects })
+} else {
+res.sendStatus(404);
+}
        
-//     });
-// });
+    });
 
 
 
