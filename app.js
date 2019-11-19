@@ -21,7 +21,7 @@ app.get("/projects/:id",  (req, res) => {
     const project = projects.find(({id}) => id === +projectID);
 
     if(project){
-    res.render("project", { projects })
+    res.render("project", { project })
 } else {
 res.sendStatus(404);
 }
