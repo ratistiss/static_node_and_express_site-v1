@@ -13,12 +13,11 @@ block content
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-
-       
+    
       each project in projects
        a(href=`/projects/${project.id}`)
         img.thumbnail(src = `/static/${project.image_urls[0]}` width='550' height='550')
         h5= project.project_name
 
-      .cell
+    .cell
         
