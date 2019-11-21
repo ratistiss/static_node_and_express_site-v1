@@ -14,16 +14,16 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='public/images/me.jpeg' width='550' height='550')
+            img.thumbnail(src=`/static/images/me.jpeg` width='550' height='550')
           .cell.auto
 
             h5 Matt Anderson
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
+            
             p.text-light
               | As an aspiring web developer I have been able to transfer many of the lessons I have learned in life to programming. Loving a challenge and being resilent have helped me develop into who I am.
 
-            //- Add about page route to the href below. 
+            
             a(href='./about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -31,7 +31,7 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
+          
           span.title-bar-title Matt Anderson
       block content
         
@@ -41,3 +41,4 @@ html(class="no-js" lang="en" dir="ltr")
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')
   script(src='/static/js/scripts.js')
+  
