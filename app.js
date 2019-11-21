@@ -29,7 +29,12 @@ app.get("/projects/:id",  (req, res) => {
   });
 
 
+app.use((err, req, res, next) =>{
+    res.locals.error = err;
+    res.render('error');
 
+
+});
 
 
 
