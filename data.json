@@ -1,23 +1,23 @@
-   {"projects":[{"id": 0, "project_name": "Random Quote Generator", "description": "Generates a quote from a list of my favorite quotes.", "technologies": ["JavaScript", "Html", "Css"], "live_link": "https://ratistiss.github.io/Tech-Degree-Unit1/", "github_link": "https://github.com/ratistiss/Tech-Degree-Unit1", "image_urls": ["images/RQGproject.jpg", "/images/RQG01.jpg", "/images/RQG02.jpg", "/images/RQG03.jpg"]
+   {"projects":[{"id": 0, "project_name": "Random Quote Generator", "description": "Generates a quote from a list of my favorite quotes.", "technologies": ["JavaScript", "Html", "Css"], "live_link": "https://ratistiss.github.io/Tech-Degree-Unit1/", "github_link": "https://github.com/ratistiss/Tech-Degree-Unit1", "image_urls": ["images/RQGproject.jpg", "images/RQG01.jpg", "images/RQG02.jpg", "images/RQG03.jpg"]
                 },
                {"id": 1, "project_name": "Pagination Links and Filtering", "description": "Generate pagination links dynamically and filter users.", "technologies": ["JavaScript", "Html", "Css", "Dom manipulation"
-                ], "live_link": "https://ratistiss.github.io/List-and-Pagination--Unit-2/", "github_link": "https://github.com/ratistiss/List-and-Pagination--Unit-2", "image_urls": ["/images/PFproject.jpg", "/images/PF01.jpg", "/images/PF02.jpg", "/images/PF03.jpg"]
+                ], "live_link": "https://ratistiss.github.io/List-and-Pagination--Unit-2/", "github_link": "https://github.com/ratistiss/List-and-Pagination--Unit-2", "image_urls": ["images/PFproject.jpg", "images/PF01.jpg", "images/PF02.jpg", "images/PF03.jpg"]
                  }, 
                 {"id": 2, "project_name": "Interactive Form", "description": "This is a form built in jQuery with Validations set on some fields using Regex.", "technologies": ["jQuery", "Html", "Css", "Regex"
-                    ], "live_link": "https://ratistiss.github.io/Interactive-Form-Unit3/", "github_link": "github.com/ratistiss/Interactive-Form-Unit3", "image_urls": ["/images/IFproject.jpg",
-                        "/images/IF01.jpg",
-                        "/images/IF02.jpg",
-                        "/images/IF03.jpg"]
+                    ], "live_link": "https://ratistiss.github.io/Interactive-Form-Unit3/", "github_link": "github.com/ratistiss/Interactive-Form-Unit3", "image_urls": ["images/IFproject.jpg",
+                        "images/IF01.jpg",
+                        "images/IF02.jpg",
+                        "images/IF03.jpg"]
                 },
                 {"id": 3, "project_name": "Phrase Hunter", "description": "Phrase Hunter is a game, where you select letters one by one and try and fill in the hidden phrase.", "technologies": ["JavaScript", "Html", "Css", "OOP", "Instantiation"
-                    ], "live_link": "https://ratistiss.github.io/Phrase-Hunter-v2/", "github_link": "https://github.com/ratistiss/Phrase-Hunter-v2", "image_urls": ["/images/PHproject.jpg",
-                        "/images/PH01.jpg",
-                        "/images/PH02.jpg",
-                        "/images/PH03.jpg"]
+                    ], "live_link": "https://ratistiss.github.io/Phrase-Hunter-v2/", "github_link": "https://github.com/ratistiss/Phrase-Hunter-v2", "image_urls": ["images/PHproject.jpg",
+                        "images/PH01.jpg",
+                        "images/PH02.jpg",
+                        "images/PH03.jpg"]
                 },
                 {"id": 4, "project_name": "Public API Call", "description": "Sends a request for 12 random users to an API. Also generates a modal to take a closer look at individuals.", "technologies": ["jQuery", "Html", "Css", "API", "JSON"
-                    ], "live_link": "https://ratistiss.github.io/Public-Api/", "github_link": "https://github.com/ratistiss/Public-Api", "image_urls": ["/images/APIproject.jpg",
-                        "/images/API01.jpg",
-                        "/images/API02.jpg",
-                        "/images/API03.jpg"]
+                    ], "live_link": "https://ratistiss.github.io/Public-Api/", "github_link": "https://github.com/ratistiss/Public-Api", "image_urls": ["images/APIproject.jpg",
+                        "images/API01.jpg",
+                        "images/API02.jpg",
+                        "images/API03.jpg"]
                 }]}

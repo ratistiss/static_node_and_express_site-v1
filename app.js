@@ -6,7 +6,7 @@ const {projects} = data;
 
 app.set('view engine', 'pug');
 app.use('/static/', express.static('public'));
-
+app.use('/static/', express.static('images'));
 
 app.get('/', (req, res) => {
     res.render('index', { projects });
@@ -21,12 +21,12 @@ app.get("/projects/:id",  (req, res) => {
     const project = projects.find(({id}) => id === +projectID);
 
     if(project){
-    res.render("project", { project })
-} else {
-res.sendStatus(404);
-}
+     res.render("project", { project })
+     } else {
+     res.sendStatus(404);
+     }
        
-    });
+  });
 
 
 
