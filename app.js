@@ -16,21 +16,33 @@ app.get('/about', (req, res) => {
     res.render('about');
 })
 
-app.get("/projects/:id",  (req, res) => {
+app.get("/projects/:id",  (req, res,next) => {
     const projectID = req.params.id;
     const project = projects.find(({id}) => id === +projectID);
 
     if(project){
      res.render("project", { project })
      } else {
-     res.sendStatus(404);
+        // res.sendStatus(404);
+        const err = new Error('Page Not Found');
+        err.status = 404;
+        next(err);
      }
        
   });
 
+app.use((req, res, next) => {
+    const err = new Error('Page Not Found');
+    err.status = 404;
+    next(err);
+
+
+});
+
 
 app.use((err, req, res, next) =>{
     res.locals.error = err;
+    res.status(err.status);
     res.render('error');
 
 
