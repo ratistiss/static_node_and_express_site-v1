@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: #FAFFD8;
   }
 
 .round{
@@ -27,23 +27,23 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #FAFFD8;
 }
 
 .button{
-  background-color: #333;
+  background-color: #423B0B;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #474935;
 }
 
 a{
-  color: #333;
+  color: #423B0B;
 }
 
 a:hover{
-  color: #111;
+  color: #474935;
 }
 
 .image{
@@ -58,20 +58,20 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #423B0B;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #FAFFD8;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #98CBB4;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +79,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #7BA098;
   }
 
 .portfolio-breadcrumb{
@@ -142,7 +142,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #FAFFD8;
 }
 
 .portfolio-bio{
