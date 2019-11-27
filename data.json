@@ -1,7 +1,7 @@
    {"projects":[{"id": 0, "project_name": "Random Quote Generator", "description": "Generates a quote from a list of my favorite quotes.", "technologies": ["JavaScript", "Html", "Css"], "live_link": "https://ratistiss.github.io/Tech-Degree-Unit1/", "github_link": "https://github.com/ratistiss/Tech-Degree-Unit1", "image_urls": ["images/RQGproject.jpg", "images/RQG01.jpg", "images/RQG02.jpg", "images/RQG03.jpg"]
                 },
                {"id": 1, "project_name": "Pagination Links and Filtering", "description": "Generate pagination links dynamically and filter users.", "technologies": ["JavaScript", "Html", "Css", "Dom manipulation"
-                ], "live_link": "https://ratistiss.github.io/List-and-Pagination--Unit-2/", "github_link": "https://github.com/ratistiss/List-and-Pagination--Unit-2", "image_urls": ["images/pfproject.jpg", "images/pf01.jpg", "images/pf02.jpg", "images/pf03.jpg"]
+                ], "live_link": "https://ratistiss.github.io/List-and-Pagination--Unit-2/", "github_link": "https://github.com/ratistiss/List-and-Pagination--Unit-2", "image_urls": ["images/Pfproject.jpg", "images/pf01.jpg", "images/pf02.jpg", "images/pf03.jpg"]
                  }, 
                 {"id": 2, "project_name": "Interactive Form", "description": "This is a form built in jQuery with Validations set on some fields using Regex.", "technologies": ["jQuery", "Html", "Css", "Regex"
                     ], "live_link": "https://ratistiss.github.io/Interactive-Form-Unit3/", "github_link": "github.com/ratistiss/Interactive-Form-Unit3", "image_urls": ["images/IFproject.jpg",
