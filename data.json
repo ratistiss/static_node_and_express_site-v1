@@ -3,7 +3,7 @@
                {"id": 1, "project_name": "Pagination Links and Filtering", "description": "Generate pagination links dynamically and filter users.", "technologies": ["JavaScript", "Html", "Css", "Dom manipulation"
                 ], "live_link": "https://ratistiss.github.io/List-and-Pagination--Unit-2/", "github_link": "https://github.com/ratistiss/List-and-Pagination--Unit-2", "image_urls": ["images/PFproject.jpg", "images/pf01.jpg", "images/pf02.jpg", "images/pf03.jpg"]
                  }, 
-                {"id": 2, "project_name": "Interactive Form", "description": "This is a form built in jQuery with Validations set on some fields using Regex.", "technologies": ["jQuery", "Html", "Css", "Regex"
+                {"id": 2, "project_name": "Interactive Form", "description": "This is a form built in jQuery with validations set on some fields using Regex.", "technologies": ["jQuery", "Html", "Css", "Regex"
                     ], "live_link": "https://ratistiss.github.io/Interactive-Form-Unit3/", "github_link": "github.com/ratistiss/Interactive-Form-Unit3", "image_urls": ["images/IFproject.jpg",
                         "images/IF01.jpg",
                         "images/IF02.jpg",
