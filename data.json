@@ -20,4 +20,10 @@
                         "images/API01.jpg",
                         "images/API02.jpg",
                         "images/API03.jpg"]
+                },
+                {"id": 5, "project_name": "The Weatherman Mars", "description": "A functional Mars weather app featuring a Machine Learning forecast, 2 different backends and a total of 7 Api calls ", "technologies": ["React", "AWS", "Flask", "Sci-Kit Learn", "Bootstrap"
+                    ], "live_link": "https://www.the-weatherman-mars.com/", "github_link": "On Request", "image_urls": ["images/TWM.png",
+                        "images/TWM01.png",
+                        "images/TWM02.png",
+                        "images/TWM03.png"]
                 }]}
