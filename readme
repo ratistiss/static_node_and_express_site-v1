@@ -1,3 +1,4 @@
-<p>Portfolio Project which uses a Node backend, with Express Module and Pug Module. I have modified my CSS to use the following color palette(#423B0B, #FAFFD8,
-#98CBB4, #7BA098, #474935) in order to make it more appealing. The npm start script was altered so that it would start Node with app.js by typing "npm start". App will Listen on port 3000. And all NPM dependency files were referenced in my .gitignore file.</p>
+#Portfolio
+
+<p>Portfolio Project which uses a Node backend, with Express Module and Pug Module. I have modified my CSS to use the following color palette(#423B0B, #FAFFD8,#98CBB4, #7BA098, #474935) in order to make it more appealing. The npm start script was altered so that it would start Node with app.js by typing "npm start". App will Listen on port 3000. And all NPM dependency files were referenced in my .gitignore file.</p>
 <p>For a live version you can also visit <a href='https://myportfolio-matt-anderson.herokuapp.com/'>here.</a></P>
